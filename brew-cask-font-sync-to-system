@@ -1,0 +1,3 @@
+#!/bin/sh
+find /usr/local/Caskroom -regex ".*/font-.*\.ttf$" -exec rsync -a {} /Library/Fonts/ \;
+
